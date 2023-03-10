@@ -1,0 +1,117 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* App */
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* .app */
+header{
+  flex-grow: 1;
+  display: flex;
+  border-bottom:#c2c2c2 solid 2px;
+}
+#main-body{
+  flex-grow: 19;
+  display: flex;
+}
+
+/* header */
+#show-list-button-area{
+  flex: 1;
+  display: flex;
+}
+#title-area{
+  flex: 13;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+#title-area-filling{
+  flex: 1;
+}
+
+/* show-list-button-area */
+#show-list-button-area button{
+  flex: 1;
+}
+
+/* #title area */
+#lotion-title{
+  flex: 1;
+}
+#lotion-description{
+  flex: 1;
+
+}
+
+/* #main-body */
+#sidebar{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  border-right: #c2c2c2 solid 2px;
+}
+#sidebar.hide-sidebar{
+  display: none;
+}
+#note-area{
+  flex: 8;
+}
+
+/* sidebar */
+.sidebar-title-area{
+  flex:1;
+  display: flex;
+
+}
+.sidebar-list{
+  flex: 19;
+}
+
+/* .sidebar-title-area */
+.sidebar-title-area h2{
+  flex: 7;
+}
+.sidebar-title-area button{
+  flex: 1;
+}
+
+/* .sidebar-list */
+.note-preview{
+  height: 100px;
+  padding: 5px;
+  margin: 0px 5px 10px 5px;
+  border-bottom: #eeecec 1px solid;
+}
+.note-preview:hover{
+  box-shadow: 1px 3px 1px #e6e4e4;
+}
+
+/* .note-preview */
+.note-preview p{
+  font-size: 0.8rem;
+  color:#707070;
+}
+
+
+
+
+
+
