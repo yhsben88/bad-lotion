@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import Edit from './Edit';
 import useFetch from './useFetch';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 function App() {
